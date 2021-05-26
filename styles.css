@@ -1,0 +1,97 @@
+
+
+
+ul {
+    list-style: none;
+}
+
+/* header section & footer */
+.navBar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+div {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding: 10px;
+}
+div > a {
+    margin: 6px;
+    font-family: Arial, Helvetica, san-serif;
+    font-size: small;
+    text-decoration: none;
+    color: #000; 
+    opacity: 0.75;
+}
+.left {
+    justify-content: flex-start;
+}
+.right {
+    justify-content: flex-end;
+}
+.sign-in {
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    color: white;
+    width: 70px; 
+    border-radius: 10%; 
+    height: 30px; 
+    font-size: 13px; 
+    font-weight: bold; 
+}
+  
+footer {
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    color: #f2f2f2;
+}
+.footerBar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+/* search section */
+.google {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.search-container {
+    height: 50%;
+    text-align: center; 
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.search-form {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 600px;
+}
+.input-selection {
+    margin: 50px;
+    text-align: center;
+}
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+input:focus {
+    box-shadow: 0px 0px 2px gray;
+}
+#submission-box { 
+    width: 492px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    height: 50%;
+    border: 1px solid gray;
+}
